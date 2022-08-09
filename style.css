@@ -20,6 +20,20 @@ body{
     width: 168px;
     height: 22px;
 }
+
+.button{
+    border: 2px solid #454545;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 3px;
+    color: #454545;
+    text-decoration: none;
+}
+
+.button:hover{
+    color: white;
+    background-color: #454545;
+}
 h1{
     font-size: 90px;
     font-family: 'Oswald';
@@ -34,7 +48,7 @@ h2{
     font-family: 'Oswald';
     font-weight: bold;
     line-height: 45px;
-    margin: 0;
+    margin: 20px 0px;
 }
 
 .header-area{
@@ -134,4 +148,13 @@ h2{
     background-image: url(images/f1.jpg);
     background-position: center;
     background-size: cover;
+ }
+
+ .area-1-quote{
+    margin-bottom: 30px;
+ }
+
+ .area-1-text{
+    margin-bottom: 50px;
+    line-height: 25px;
  }
