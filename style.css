@@ -123,7 +123,7 @@ h2{
 
  .area-1-img01{
     height: 350px;
-    background-image: url('../Starbucks/images/f2.jpg');
+    background-image: url(images/f2.jpg);
     background-position: center;
     background-size: cover;
  }
