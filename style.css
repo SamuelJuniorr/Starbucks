@@ -15,6 +15,28 @@ body{
     margin: auto;
 }
 
+.barra{
+    background-color: #117050;
+    width: 168px;
+    height: 22px;
+}
+h1{
+    font-size: 90px;
+    font-family: 'Oswald';
+    font-weight: bold;
+    line-height: 100px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-size: 40px;
+    font-family: 'Oswald';
+    font-weight: bold;
+    line-height: 45px;
+    margin: 0;
+}
+
 .header-area{
     display: flex;
     justify-content: space-between;
@@ -79,15 +101,6 @@ body{
     padding-bottom: 90px;
 }
 
-.banner h1{
-    font-size: 90px;
-    font-family: 'Oswald';
-    font-weight: bold;
-    line-height: 100px;
-    margin: 0;
-    margin-bottom: 30px;
-}
-
 .banner-images{
     margin-top: 40px;
 }
@@ -100,19 +113,22 @@ body{
     margin-right: 40px;
  }
 
- .area1 {
+ .area-1-content{
+    padding: 80px;
+ }
+ .area-1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
  }
 
- .area1-img01{
-    background-image: url('../Starbucks/images/f1.jpg');
+ .area-1-img01{
+    height: 350px;
+    background-image: url('../Starbucks/images/f2.jpg');
     background-position: center;
     background-size: cover;
-
  }
 
- .area1-img02{
+ .area-1-img02{
     grid-column: 2/3;
     grid-row: 1/3;
     background-image: url(images/f1.jpg);
