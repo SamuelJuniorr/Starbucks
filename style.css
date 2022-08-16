@@ -189,9 +189,6 @@ h2{
     margin-bottom: 50px;
     line-height: 25px;
  }
-
- 
-
  .area-3-content{
     padding: 200px 80px;
     background-image: url(images/bg2.jpg);
@@ -213,9 +210,6 @@ h2{
     margin-bottom: 50px;
     line-height: 25px;
  }
-
-
-
  .area-4{
     display: grid;
     grid-template-columns: 450px 1fr;
@@ -248,7 +242,7 @@ h2{
  footer{
     background-color: #333;
     color: white;
-    padding: 80px;
+    padding: 40px;
     text-align: center;
  }
 
@@ -261,3 +255,83 @@ h2{
     text-decoration: underline;
     color: brown;
  }
+
+
+
+
+
+
+ @media(min-width:769px) and (max-width:1140px){
+   .container{
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+ }
+
+
+ @media (min-width:426px) and (max-width:768px){
+   .area-1{
+      grid-template-columns: 3fr 2fr;
+   }
+   .area-2{
+      grid-template-columns: 2fr 3fr;
+   }
+   .area-3{
+      grid-template-columns: 3fr 2fr;
+   }
+ }
+
+
+ @media (max-width:425px){
+   .container{
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+   .header-search input{
+      max-width: 80px;
+   }
+
+   .header-menu{
+      margin-left: 20px;
+   }
+
+   h1{
+      font-size: 50px;
+      line-height: 50px;
+   }
+   h2{
+      font-size: 25px;
+      line-height: 30px;
+   }
+
+   .banner-images img{
+      width: 70px;
+      height: 70px;
+      margin-right: 10px;
+      border: 3px solid #117050;
+      border-radius: 50%;
+   }
+
+   .area-1, 
+   .area-2,
+   .area-3,
+   .area-4{
+      grid-template-columns: 1fr;
+   }
+   .area-1-content,
+   .area-2-content,
+   .area-3-content,
+   .area-4-content{
+      padding: 40px;
+   }
+
+   .area-5{
+      height: 200px;
+   }
+
+   footer{
+      font-size: 12px;
+      padding: 40px 20px;
+   }
+ }
+
